@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kahori Shamira - Portafolio Personal</title>
+    <!-- Fuentes de Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display:wght@600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Iconos de FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav>
+        <a href="#inicio" class="logo-nav">
+            <!-- Tu ilustración como logo en el menú -->
+            <img src="Logo Kahori.png" alt="Logo Kahori">
+        </a>
+        <button class="menu-btn" id="menuBtn">☰</button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Sobre Mí</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
+            <li><a href="#contactos">Contactos</a></li>
+        </ul>
+    </nav>
+
+    <!-- SECCIÓN INICIO -->
+    <section id="inicio">
+        <div class="container contenedor-centrado">
+            <!-- Tu ilustración principal en el centro -->
+            <img src="Logo Kahori.png" alt="Kahori Shamira" class="logo-central">
+            
+            <h1>Hola, soy <span class="firma">Kahori Shamira</span></h1>
+            <h2>Vera Leguia</h2>
+            <p class="subtitulo">Bienvenida a mi espacio creativo. Soy estudiante de la carrera de Diseño y Desarrollo de Software.</p>
+        </div>
+    </section>
+
+    <!-- SECCIÓN SOBRE MÍ -->
+    <section id="nosotros" class="seccion-blanca">
+        <div class="container container-nosotros">
+            <div class="imagen-nosotros">
+                <!-- Imagen de muestra (puedes cambiarla por otra tuya luego) -->
+                <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&w=400&q=80" alt="Sobre Kahori Shamira">
+            </div>
+            <div class="texto-nosotros">
+                <h2>Conóceme un poco más</h2>
+                <p>Hola, mucho gusto! Soy Kahori Shamira Vera Leguia estudiante de la carrera Diseño y desarrollo de Software me apasiona la tecnología y el diseño web. Me encanta aprender cosas nuevas, superar retos y aplicar mis conocimientos en proyectos creativos y funcionales. Este portafolio refleja mi dedicación.</p>
+                <a href="#galeria" class="btn-rosado">Ver mis proyectos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN GALERÍA -->
+    <section id="galeria">
+        <div class="container">
+            <h2>Mi Galería de Proyectos</h2>
+            <div class="grid-galeria">
+                <!-- Proyecto 1 -->
+                <div class="item-galeria">
+                    <a href="http://kahorivera-proyecto01.free.je/" target="_blank">
+                        <img src="academia.jpeg" alt="Proyecto 1">
+                    </a>
+                    <div class="info-galeria">
+                        <h3>WEB ACADEMIA</h3>
+                        <p>Sitio web responsivo para una academia, con una interfaz clara, estructurada y optimizada para la navegación desde dispositivos móviles.</p>
+                        <a href="http://kahorivera-proyecto01.free.je/" target="_blank" class="btn-rosado" style="padding: 0.5rem 1rem; font-size: 0.9rem; margin-top: 10px; display: inline-block;">Ver Proyecto</a>
+                    </div>
+                </div>
+                <!-- Proyecto 2 -->
+                <div class="item-galeria">
+                    <a href="https://kahorivera-arch.github.io/SPA-VERA-LEGUIA/" target="_blank">
+                        <img src="SPA.jpeg" alt="Proyecto 2">
+                    </a>
+                    <div class="info-galeria">
+                        <h3>WEB SPA</h3>
+                        <p>Interfaz web moderna para un negocio de spa. Destaca por su navegación intuitiva, ideal para presentar servicios de belleza de forma atractiva.</p>
+                        <a href="https://kahorivera-arch.github.io/SPA-VERA-LEGUIA/" target="_blank" class="btn-rosado" style="padding: 0.5rem 1rem; font-size: 0.9rem; margin-top: 10px; display: inline-block;">Ver Proyecto</a>
+                    </div>
+                </div>
+                <!-- Proyecto 3 -->
+                <div class="item-galeria">
+                    <a href="https://enlace-a-tu-proyecto3.com" target="_blank">
+                        <img src="https://images.unsplash.com/photo-1555099962-4199c345e5dd?auto=format&fit=crop&w=400&q=80" alt="Proyecto 3">
+                    </a>
+                    <div class="info-galeria">
+                        <h3>Lógica Interactiva</h3>
+                        <p>Aplicaciones web dinámicas e interactivas utilizando JavaScript moderno y animaciones CSS.</p>
+                        <a href="https://enlace-a-tu-proyecto3.com" target="_blank" class="btn-rosado" style="padding: 0.5rem 1rem; font-size: 0.9rem; margin-top: 10px; display: inline-block;">Ver Proyecto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN TESTIMONIOS -->
+    <section id="testimonios" class="seccion-blanca">
+        <div class="container">
+            <h2>Lo que dicen de mí</h2>
+            <div class="testimonios-container">
+                <div class="testimonio-card">
+                    <i class="fas fa-quote-left icono-comilla"></i>
+                    <p>"Kahori Vera es una compañera excelente, siempre dispuesta a ayudar y con una creatividad increíble para el diseño de interfaces. Sus proyectos siempre destacan."</p>
+                    <h4>— Carol Reyes T., Compañera de clase</h4>
+                </div>
+                <div class="testimonio-card">
+                    <i class="fas fa-quote-left icono-comilla"></i>
+                    <p>"Demuestra un gran compromiso en sus entregas. Su dedicación es evidente y esta bonito su portafolio web."</p>
+                    <h4>— Prof. Azucena V.</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN CONTACTOS -->
+    <section id="contactos">
+        <div class="container contenedor-centrado">
+            <h2>Trabajemos Juntos</h2>
+            <p style="margin-bottom: 2rem;">¿Tienes un proyecto en mente? Envíame un mensaje y me pondré en contacto contigo pronto.</p>
+            
+            <form action="procesar.php" method="POST">
+                <input type="text" name="nombre" placeholder="Tu Nombre Completo" required>
+                <input type="email" name="correo" placeholder="Tu Correo Electrónico" required>
+                <textarea name="mensaje" rows="5" placeholder="¿En qué te puedo ayudar?" required></textarea>
+                <button type="submit">Enviar Mensaje <i class="fas fa-paper-plane" style="margin-left: 5px;"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="redes-sociales">
+            <!-- RECUERDA: Cambia los enlaces por tu GitHub y LinkedIn reales -->
+            <a href="https://github.com/kahorivera-arch" target="_blank" class="icono-red" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/TU_USUARIO" target="_blank" class="icono-red" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+        <p>&copy; 2026 Kahori Shamira Vera Leguia.<br>Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Enlace al archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
